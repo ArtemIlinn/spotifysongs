@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>success margin-top</title>
+  <style>
+   div {
+    background: #45ed75; /* Цвет фона */
+    border: 2px solid black; /* Параметры рамки */
+    padding: 20px; /* Поля вокруг текста */
+    margin-top: 3%; /* Отступ сверху */
+   }
+  </style>
+ </head>
+ <body>
+   <div> <p style="font-family:'proxima-nova',sans-serif;font-size:20px;font-style:normal;">
+    Here is examples of descriptive statistics of the dataset: mean, median, standard deviation for fields of
+       duration of the track, popularity Spotify coefficient and numbers of available markets:
+   </p>
+       <p>duration_ms_mean: 211497.08567096284,
+           duration_ms_median: 201573.0,
+           duration_ms_standard_deviation: 72224.33643638593</p>
+       <p>popularity_mean: 44.329795299469296,
+           popularity_median: 47.0, popularity_standard_deviation: 23.074622283125237</p>
+       <p>available_markets_mean: 148.64139499620924,
+           available_markets_median: 184.0,
+           available_markets_standard_deviation: 68.88950808800924</p>
+    <p style="font-family:'proxima-nova',sans-serif;font-size:20px;font-style:normal;">
+    What do we know now:
+   </p>
+       <p>The
+the dataset includes the data of saved tracks on Spotify for the last three years by user abstractos.
+           And according to statistics and science, the person whose data was analyzed is unique
+           (this can be seen from the fairly average values in the popularity column,
+           which really means how popular the song is among all users) and amazing musical taste.</p>
+       <p>Most of the pop music variations are present, such as art pop, hyper pop, and so on.
+           Classical music is also in the top 3 most listened to genres.</p>
+       <p>What is interesting is that the data presented largely coincides with the statistics
+           that Spotify provides at the end of the year as Spotify Review.</p>
+       <p>The rest of the information can be found on the respective webpages.</p>
+  </div>
+
+ </body>
+</html>
+
+{% endblock %}

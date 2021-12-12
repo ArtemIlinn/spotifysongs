@@ -1,0 +1,67 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+</head>
+
+
+<body background="/static/img/22.jpg" bgcolor="pink">
+
+
+    <div class="container">
+
+
+
+
+        <div class="jumbotron" align="center"  style="font-family:'proxima-nova',sans-serif;font-size:50px;font-style:oblique;color:#45ed75"  >
+            Welcome to the SoundStats menu
+
+            <p class="lead"></p>
+            <p><a class="btn btn-lg btn-success"  style="color:" href="viewthedataset" role="button">View the Data Set</a>
+            </p>
+                <p><a class="btn btn-lg btn-success"  style="color:" href="tops" role="button">Top of Dope</a>
+            </p>
+            <p><a class="btn btn-lg btn-success" href="ab" role="button">A/B distributions</a>
+            </p>
+
+                <p><a class="btn btn-lg btn-success" href="description" role="button">Description/Descriptive Statistics</a>
+            </p>
+            </font>
+        </div>
+    </div>
+
+<img>
+    </div>
+
+  <style>
+   .thumb img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 7px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    text-align: center;
+   }
+  </style>
+<center><p class="thumb">
+
+   <img src="/static/img/4.jpg" alt="Фотография 1" width="200" height="200">
+   <img src="/static/img/1.jpg" alt="Фотография 2" width="200" height="200">
+   <img src="/static/img/2.jpg" alt="Фотография 3" width="200" height="200">
+   <img src="/static/img/3.jpg" alt="Фотография 4" width="200" height="200">
+
+
+  </p></center>
+
+
+</body>
+
+</html>
+
+{% endblock %}
