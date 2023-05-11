@@ -12,3 +12,5 @@ Graths construction and writing them into HTML code for future online interactio
 - Data Science libraries
 - Python, Flack, HTML
 
+
+![alt text](https://github.com/ArtemIlinn/spotifysongs/blob/master/results/mainpage.png)
