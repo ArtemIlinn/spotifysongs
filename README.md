@@ -14,3 +14,6 @@ Graths construction and writing them into HTML code for future online interactio
 
 
 ![alt text](https://github.com/ArtemIlinn/spotifysongs/blob/master/results/mainpage.png)
+![alt text](https://github.com/ArtemIlinn/spotifysongs/blob/master/results/topfeatures.png)
+![alt text](https://github.com/ArtemIlinn/spotifysongs/blob/master/results/ab.png)
+![alt text](https://github.com/ArtemIlinn/spotifysongs/blob/master/results/desctiption.png)
