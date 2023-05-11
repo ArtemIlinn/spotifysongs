@@ -1,6 +1,6 @@
 # Spotify Songs Analysis
 
-If you ever wanted you Spotify Rewind but not ready for to wait till the end of the year, here is a solution!
+If you ever wanted your Spotify Rewind but not ready to wait till the end of the year, here is a solution!
 
 
 Project provides a solution for the process of data extraction from Spotify Personal Library, in particular - list of favorite songs,
